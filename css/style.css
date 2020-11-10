@@ -400,7 +400,7 @@ input[type="submit"]:hover {
 .faq-question {
     height: auto;
 }
-.time-limite{
+.time-limite {
     display: none;
 }
 
@@ -537,26 +537,44 @@ input[type="submit"]:hover {
     }
     .second-col {
         display: inherit;
-        position: absolute!important;
+        position: absolute !important;
         max-width: 95% !important;
         flex: 0 0 95% !important;
     }
-    .second-col img{
+    .second-col img {
         width: 95%;
     }
     .for-95 {
-        position: absolute!important;
+        position: absolute !important;
         display: inherit;
         max-width: 95% !important;
         flex: 0 0 95% !important;
     }
-    .main-content-text{
+    .main-content-text {
         margin-top: 105%;
     }
-    .time-limite{
+    .time-limite {
         display: inherit;
         margin-top: 2%;
         margin-bottom: 0;
+    }
+    .card-bg-img {
+        background-image: url("../img/gray-background-2.png")!important;
+        background-size: 109% 100%;
+        margin-bottom: -20%;
+        z-index: 99;
+    }
+    .acount-bg-img {
+        background-image: url("../img/pig-2.png")!important;
+        background-color: #011a3a;
+        background-size: 109% 100%;
+    }
+    .question-bg-img{
+        background-size: 109% 100%;
+    }
+    .footer-bg-img{
+        background-image: url("../img/white-background.png");
+        background-color: #f5f6f7;
     }
 }
 
