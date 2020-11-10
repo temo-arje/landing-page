@@ -671,9 +671,12 @@ input[type="submit"]:hover {
     }
     .mob{
         display: inherit;
+        width: 0%;
+        height: auto;
         max-width: 95% !important;
         flex: 0 0 95% !important;
     }
+    
 }
 
 /* end responsive */
