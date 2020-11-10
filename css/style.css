@@ -93,13 +93,17 @@ header {
     margin-top: 10%;
 }
 .logo {
-    width: 24%;
-    padding-right: 4%;
+    width: 85%;
+    padding: 12px 0;
+    /* width: 24%; */
+    /* padding-right: 4%; */
+    padding-right: 17%;
     border-right: 1px solid #d71440;
 }
 .nav-text {
-    margin-left: 4%;
-    
+    /* margin-left: 4%; */
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 .lat-black{
     font-family: lato-black;
@@ -115,6 +119,9 @@ header {
 }
 .slider-img {
     width: 100%;
+}
+.logo-head{
+    width: 25%;
 }
 /* end of head part */
 
@@ -475,6 +482,7 @@ input[type="submit"]:hover {
     }
     .nav-text {
         font-size: 20px;
+
     }
     .first-title {
         max-width: 100% !important;
@@ -572,6 +580,16 @@ input[type="submit"]:hover {
     .demo-head1 {
         margin-top: 5%;
         margin-bottom: 15%;
+    }
+    .demo-1{
+        margin-top: 4%;
+        
+    }
+    .logo{
+        padding-right: 4%;
+    }
+    .logo-head {
+        width: 100%;
     }
     .first-title {
         text-align: center;
