@@ -436,6 +436,14 @@ input[type="submit"]:hover {
 }
 /* end faq questions */
 
+.komp{
+    
+    display: inherit;
+}
+.mob{
+    display: none;
+}
+
 .time-limite {
     margin-top: 2%;
     margin-bottom: 0;
@@ -535,7 +543,7 @@ input[type="submit"]:hover {
         right: 0;
         top: 1%; */
         float: right;
-        font-size: 16px;
+        font-size: 15px;
     }
     .main-selection {
         position: relative;
@@ -547,7 +555,7 @@ input[type="submit"]:hover {
     }
     .nav-text {
         text-align: center;
-        margin-top: 5%;
+        margin-top: 1%;
         font-size: 23px;
     }
     .footer-logo-text {
@@ -583,6 +591,8 @@ input[type="submit"]:hover {
     }
     .demo-1{
         margin-top: 4%;
+        padding: 4px 10px;
+        height: inherit;
         
     }
     .logo{
@@ -635,7 +645,7 @@ input[type="submit"]:hover {
         flex: 0 0 95% !important;
     }
     .main-content-text {
-        margin-top: 105%;
+        /* margin-top: 105%; */
     }
 
     .card-bg-img {
@@ -655,6 +665,14 @@ input[type="submit"]:hover {
     .footer-bg-img {
         background-image: url("../img/white-background.png");
         background-color: #f5f6f7;
+    }
+    .komp{
+        display: none;
+    }
+    .mob{
+        display: inherit;
+        max-width: 95% !important;
+        flex: 0 0 95% !important;
     }
 }
 
