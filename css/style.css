@@ -53,7 +53,8 @@ header {
     border-radius: 7px;
     margin-left: auto;
 }
-.demo-1:hover,.demo-2:hover {
+.demo-1:hover,
+.demo-2:hover {
     text-decoration: none;
     color: white;
     background-color: #e33448;
@@ -216,6 +217,9 @@ header {
 .footer-logo-text {
     color: #06294d;
     margin: 1% 0 0 3%;
+}
+.footer-text-logo {
+    display: flex;
 }
 .footer-link {
     color: #d71440;
@@ -405,10 +409,10 @@ input[type="submit"]:hover {
         position: absolute;
         right: 0;
     }
-    .second-col {
+    /* .second-col {
         max-width: 20% !important;
         flex: 0 0 20% !important;
-    }
+    } */
     .demo-1 {
         font-size: 13px;
     }
@@ -435,6 +439,7 @@ input[type="submit"]:hover {
     }
     .for-main {
         display: block;
+        text-align: center;
     }
     .for-100 {
         max-width: 100% !important;
@@ -444,7 +449,8 @@ input[type="submit"]:hover {
         margin-top: 1rem;
     }
     .card-image-item {
-        width: 60%;
+        /* width: 60%; */
+        margin-top: 0;
     }
     .for-form {
         flex: 0 0 80% !important;
@@ -460,9 +466,11 @@ input[type="submit"]:hover {
         width: 100%;
     }
     .demo-1 {
-        position: absolute;
+        /* position: absolute;
         right: 0;
-        top: 1%;
+        top: 1%; */
+        float: right;
+        font-size: 16px;
     }
     .main-selection {
         position: relative;
@@ -472,15 +480,23 @@ input[type="submit"]:hover {
         border-right: none;
         margin-top: 1%;
     }
-    .demo-1 {
-        font-size: 16px;
-    }
     .nav-text {
         text-align: center;
         margin-top: 5%;
+        font-size: 23px;
     }
     .footer-logo-text {
-        display: none;
+        /* display: none; */
+        margin: 2.5% 0 0 0;
+    }
+    .footer-text-logo {
+        display: block;
+    }
+    .foot-ic-parents {
+        width: 100%;
+    }
+    .icons-right {
+        margin-left: auto;
     }
 }
 @media only screen and (max-width: 640px) {
@@ -490,27 +506,49 @@ input[type="submit"]:hover {
     }
     .first-title {
         text-align: center;
+        margin-top: 95%;
     }
     .header-title {
-        background-size: 160% 100%;
+        background-size: 180% 100%;
     }
     .footer-logo {
-        width: 70%;
+        width: 50%;
     }
     .footer-link {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
-    .demo-1{
+    /* .demo-1{
         margin-right: 15px;
-    }
+    } */
     .accordion {
         margin-left: 15px;
         margin-right: 15px;
     }
-    input[type="submit"]{
+    input[type="submit"] {
         float: inherit;
         margin: 0 auto;
         display: flex;
+    }
+    .nav-text {
+        font-size: 19px;
+    }
+    .second-col {
+        display: inherit;
+        position: absolute!important;
+        max-width: 95% !important;
+        flex: 0 0 95% !important;
+    }
+    .second-col img{
+        width: 95%;
+    }
+    .for-95 {
+        position: absolute!important;
+        display: inherit;
+        max-width: 95% !important;
+        flex: 0 0 95% !important;
+    }
+    .main-content-text{
+        margin-top: 105%;
     }
 }
 
