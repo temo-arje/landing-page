@@ -672,7 +672,7 @@ input[type="submit"]:hover {
     .mob{
         display: inherit;
         width: 0%;
-        height: auto;
+        height: 55vh;
         max-width: 95% !important;
         flex: 0 0 95% !important;
     }
