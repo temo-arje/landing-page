@@ -398,7 +398,10 @@ input[type="submit"]:hover {
     padding: 0 1.5rem 0 1.5rem;
 }
 .faq-question {
-    height: auto%;
+    height: auto;
+}
+.time-limite{
+    display: none;
 }
 
 /* end faq questions */
@@ -506,7 +509,7 @@ input[type="submit"]:hover {
     }
     .first-title {
         text-align: center;
-        margin-top: 95%;
+        margin-top: 85%;
     }
     .header-title {
         background-size: 180% 100%;
@@ -549,6 +552,11 @@ input[type="submit"]:hover {
     }
     .main-content-text{
         margin-top: 105%;
+    }
+    .time-limite{
+        display: inherit;
+        margin-top: 2%;
+        margin-bottom: 0;
     }
 }
 
