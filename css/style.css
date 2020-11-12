@@ -634,8 +634,13 @@ input[type="submit"]:hover {
     /* margin-left: auto; */
     margin-top: 12%;
 }
+.for-color{
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
 /* responsive */
 @media only screen and (max-width: 992px) {
+    
     .footer-logo-text {
         /* color: #06294d; */
         margin: 3% 0 0 3%;
@@ -699,6 +704,11 @@ input[type="submit"]:hover {
     }
 }
 @media only screen and (max-width: 768px) {
+    .main-content-img {
+        width: 41vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .logo {
         padding-right: 0%;
     }
